@@ -1,0 +1,22 @@
+{
+  "name": "restaurant-table-reservation-system",
+  "version": "1.0.0",
+  "description": "Restaurant Table Reservation System",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:front-end": "cd front-end && npm run dev",
+    "start:back-end": "npm --prefix ./back-end start",
+    "start:dev": "npm run --prefix ./back-end app:dev",
+    "start:prod": "npm run --prefix ./back-end app:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slavyanHristov/Restaurant-Table-Reservation-System.git"
+  },
+  "author": "Slavyan Hristov Hristov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slavyanHristov/Restaurant-Table-Reservation-System/issues"
+  },
+  "homepage": "https://github.com/slavyanHristov/Restaurant-Table-Reservation-System#readme"
+}
